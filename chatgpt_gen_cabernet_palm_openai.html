@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-family: Verdana, sans-serif;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Set specific column widths */
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 10%;
+        }
+        
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 10%;
+        }
+        
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 5%;
+        }
+        
+        /* Set equal width for the remaining columns */
+        th:nth-child(n+4),
+        td:nth-child(n+4) {
+            width: 18.33%; /* (100% - (10% + 10% + 5%)) / 3 */
+        }
+    </style>
+</head>
+<body>
+<h3>Wine predictions for chatGPT generated Cabernet Tasting Notes</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>serial_number</th>
+      <th>name</th>
+      <th>wine</th>
+      <th>note</th>
+      <th>prediction_palm</th>
+      <th>prediction_openai</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Mystic Oak Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of blackcurrant, cedar, and tobacco. Rich and full-bodied with well-integrated tannins. Flavors of ripe dark berries and hints of vanilla on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Velvet Peak Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep ruby color with aromas of black cherry, plum, and baking spices. Full-bodied with velvety tannins. Notes of blackberry, cocoa, and a touch of leather on the palate.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nAnswer: Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Silvershade Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of blackberry, cassis, and graphite. Powerful and structured with firm tannins. Layers of dark fruit, licorice, and toasted oak flavors.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Crimson Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and complex with aromas of blackcurrant, violet, and cigar box. Smooth tannins and balanced acidity. Dark fruit flavors with a touch of mint and mocha.</td>
+      <td>pinot noir</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Obsidian Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Bold and concentrated with aromas of black cherry, black olive, and baking spices. Rich and velvety on the palate with flavors of blackberry, dark chocolate, and tobacco leaf.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Ravenwood Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark garnet color with aromas of blackberry, vanilla, and cedar. Full-bodied with grippy tannins. Layers of black cherry, plum, and hints of cinnamon.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Emerald Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Vinecrest Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nThe grape varietal is likely a red wine, such as a Cabern</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Crimson Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep purple color with aromas of blackberry jam, licorice, and vanilla. Rich and opulent on the palate with velvety tannins. Layers of ripe black fruit and a touch of mocha.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nPossibly Syrah/Shiraz</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Rustic Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black cherry, currant, and dried herbs. Medium to full-bodied with well-integrated tannins. Flavors of blackberry, tobacco, and a hint of mint on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Crestview Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Powerful and complex with aromas of blackcurrant, graphite, and cedar. Robust tannins and vibrant acidity. Dark fruit flavors with nuances of vanilla and baking spices.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Amethyst Valley</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and polished with aromas of blackberry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of black cherry, cocoa, and a touch of eucalyptus.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nThe grape varietal is likely Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Crimson Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nIt appears to be a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Onyx Creek</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and brooding with aromas of black cherry, smoke, and earth. Robust tannins and medium acidity. Concentrated flavors of blackberry, leather, and a hint of clove.</td>
+      <td>Zinfandel</td>
+      <td>\nPossible Grape Varietal: Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Ruby Mist</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Vibrant and fruit-forward with aromas of blackcurrant, raspberry, and vanilla. Smooth tannins and bright acidity. Juicy flavors of red berries, cocoa, and a touch of spice.</td>
+      <td>Merlot</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Cedarwood Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, tobacco, and dried herbs. Full-bodied with firm tannins. Layers of dark fruit, black tea, and a hint of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Slatestone Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, graphite, and cedar. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Nocturne Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, cassis, and licorice. Full-bodied with velvety tannins. Layers of blackberry, dark chocolate, and a hint of mint.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Vintner's Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Rich and opulent with aromas of black plum, mocha, and baking spices. Full-bodied with silky tannins. Ripe black fruit flavors with hints of vanilla and cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Crimson Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of blackberry jam, leather, and cedar. Medium to full-bodied with well-balanced tannins. Flavors of black cherry, tobacco, and a touch of espresso on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Emerald Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Vinecrest Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Syrah or Zinfandel</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Crimson Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with aromas of blackberry, vanilla, and cedar. Full-bodied with grippy tannins. Layers of black cherry, plum, and hints of cinnamon.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nAnswer: Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Onyx Creek</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>The grape varietal is Cabernet Sauvignon.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Ruby Mist</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nCould be Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Crimson Vineyards</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Harmony Hill</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Cedarwood Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Silvershade Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, cedar, and baking spices. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Velvet Peak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nAnswer: Merlot</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Mystic Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Obsidian Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and brooding with aromas of black cherry, smoke, and earth. Robust tannins and medium acidity. Concentrated flavors of blackberry, leather, and a hint of clove.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Ruby Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Vibrant and fruit-forward with aromas of blackcurrant, raspberry, and vanilla. Smooth tannins and bright acidity. Juicy flavors of red berries, cocoa, and a touch of spice.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Crimson Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, tobacco, and dried herbs. Full-bodied with firm tannins. Layers of dark fruit, black tea, and a hint of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Slatestone Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, graphite, and cedar. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Nocturne Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, cassis, and licorice. Full-bodied with velvety tannins. Layers of blackberry, dark chocolate, and a hint of mint.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Vintner's Pride</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Rich and opulent with aromas of black plum, mocha, and baking spices. Full-bodied with silky tannins. Ripe black fruit flavors with hints of vanilla and cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\n    Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Crimson Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of blackberry jam, leather, and cedar. Medium to full-bodied with well-balanced tannins. Flavors of black cherry, tobacco, and a touch of espresso on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Emerald Valley</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Vineyard Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nThe grape varietal is likely a red wine, possibly Syrah or Cab</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Crimson Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with aromas of blackberry, vanilla, and cedar. Full-bodied with grippy tannins. Layers of black cherry, plum, and hints of cinnamon.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Onyx Creek</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Ruby Mist</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nIt could be a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Crimson Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and complex with aromas of blackcurrant, violet, and cigar box. Smooth tannins and balanced acidity. Dark fruit flavors with a touch of mint and mocha.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Amethyst Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe blackberries and currants on the nose, with hints of vanilla and cedar. Full-bodied with well-integrated tannins. Flavors of dark chocolate, black cherry, and spices.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Silvershade Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>The wine tasting note describes a wine with aromas of black plum, cassis, and eucalyptus, and flavors of blackberry, mint, and a touch of dark chocolate on the finish. These are all characteristic of Cabernet Sauvignon, so the grape varietal is likely to be Cabernet Sauvignon.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Harmony Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Cedarwood Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>Velvet Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nIt is likely a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Mystic Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Crimson Vineyards</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>The grape varietal is Cabernet Sauvignon.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>Harmony Hill</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>Cedarwood Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>Silvershade Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, cedar, and baking spices. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>Velvet Peak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>Mystic Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>Obsidian Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and brooding with aromas of black cherry, smoke, and earth. Robust tannins and medium acidity. Concentrated flavors of blackberry, leather, and a hint of clove.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>Ruby Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Vibrant and fruit-forward with aromas of blackcurrant, raspberry, and vanilla. Smooth tannins and bright acidity. Juicy flavors of red berries, cocoa, and a touch of spice.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>Crimson Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, tobacco, and dried herbs. Full-bodied with firm tannins. Layers of dark fruit, black tea, and a hint of dark chocolate on the finish.</td>
+      <td>The wine tasting note mentions "black plum, tobacco, and dried herbs". These are common aroma and flavor characteristics of Cabernet Sauvignon. So Cabernet Sauvignon is the most likely grape varietal.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Slatestone Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, graphite, and cedar. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Nocturne Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, cassis, and licorice. Full-bodied with velvety tannins. Layers of blackberry, dark chocolate, and a hint of mint.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>Vintner's Pride</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Rich and opulent with aromas of black plum, mocha, and baking spices. Full-bodied with silky tannins. Ripe black fruit flavors with hints of vanilla and cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\nMaloofiberne or Shiraz</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>Crimson Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of blackberry jam, leather, and cedar. Medium to full-bodied with well-balanced tannins. Flavors of black cherry, tobacco, and a touch of espresso on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nAnswer:  Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>Emerald Valley</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>Vineyard Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nPossible grape varietal: Syrah/Shiraz</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>Crimson Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with aromas of blackberry, vanilla, and cedar. Full-bodied with grippy tannins. Layers of black cherry, plum, and hints of cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>Onyx Creek</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Ruby Mist</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Crimson Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and complex with aromas of blackcurrant, violet, and cigar box. Smooth tannins and balanced acidity. Dark fruit flavors with a touch of mint and mocha.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Amethyst Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe blackberries and currants on the nose, with hints of vanilla and cedar. Full-bodied with well-integrated tannins. Flavors of dark chocolate, black cherry, and spices.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Silvershade Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Harmony Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Cedarwood Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>Velvet Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nMost likely, the grape varietal is Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>Mystic Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Zinfandel</td>
+      <td>\nPossibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>Crimson Vineyards</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td>Harmony Hill</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>The grape varietal is Cabernet Sauvignon.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td>Cedarwood Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Silvershade Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, cedar, and baking spices. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>Velvet Peak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nMost likely a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>Mystic Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>Obsidian Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and brooding with aromas of black cherry, smoke, and earth. Robust tannins and medium acidity. Concentrated flavors of blackberry, leather, and a hint of clove.</td>
+      <td>Zinfandel</td>
+      <td>\nIt is likely a red wine, possibly Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>Ruby Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Vibrant and fruit-forward with aromas of blackcurrant, raspberry, and vanilla. Smooth tannins and bright acidity. Juicy flavors of red berries, cocoa, and a touch of spice.</td>
+      <td>Zinfandel</td>
+      <td>\nIt could be a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>84</td>
+      <td>Crimson Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, tobacco, and dried herbs. Full-bodied with firm tannins. Layers of dark fruit, black tea, and a hint of dark chocolate on the finish.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nThe grape varietal could be Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Slatestone Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with complex aromas of blackberry, graphite, and cedar. Structured and powerful with well-integrated tannins. Notes of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Nocturne Noir</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, cassis, and licorice. Full-bodied with velvety tannins. Layers of blackberry, dark chocolate, and a hint of mint.</td>
+      <td>The grape varietal is Cabernet Sauvignon.</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>Vintner's Pride</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Rich and opulent with aromas of black plum, mocha, and baking spices. Full-bodied with silky tannins. Ripe black fruit flavors with hints of vanilla and cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\nPossible Answer: Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Crimson Heights</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of blackberry jam, leather, and cedar. Medium to full-bodied with well-balanced tannins. Flavors of black cherry, tobacco, and a touch of espresso on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Emerald Valley</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Vineyard Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nMAYBE a Cabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Crimson Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Deep garnet color with aromas of blackberry, vanilla, and cedar. Full-bodied with grippy tannins. Layers of black cherry, plum, and hints of cinnamon.</td>
+      <td>Zinfandel</td>
+      <td>\nIt is likely a Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Onyx Creek</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Classic Cabernet Sauvignon with aromas of blackcurrant, bell pepper, and oak. Firm tannins and vibrant acidity. Notes of blackberry, green pepper, and a touch of tobacco.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Ruby Mist</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense aromas of black plum, black pepper, and baking spices. Full-bodied with chewy tannins. Dark fruit flavors complemented by hints of coffee and dark chocolate.</td>
+      <td>Zinfandel</td>
+      <td>\nPossible varietals: Cabernet Sauvignon, Mer</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Crimson Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and complex with aromas of blackcurrant, violet, and cigar box. Smooth tannins and balanced acidity. Dark fruit flavors with a touch of mint and mocha.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Amethyst Ridge</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe blackberries and currants on the nose, with hints of vanilla and cedar. Full-bodied with well-integrated tannins. Flavors of dark chocolate, black cherry, and spices.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td>Silvershade Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Aromas of black plum, cassis, and eucalyptus. Full-bodied with velvety tannins. Flavors of blackberry, mint, and a touch of dark chocolate on the finish.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td>Harmony Crest</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Dark and rich with aromas of blackberry, tobacco, and cedar. Full-bodied with structured tannins. Flavors of black currant, dark chocolate, and a hint of spice.</td>
+      <td>Zinfandel</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Cedarwood Estate</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Intense and concentrated with aromas of black cherry, graphite, and herbs. Powerful tannins and balanced acidity. Layers of dark fruit, tobacco, and vanilla.</td>
+      <td>Cabernet Sauvignon</td>
+      <td>\nCabernet Sauvignon</td>
+    </tr>
+    <tr>
+      <td>99</td>
+      <td>Velvet Oak</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Elegant and refined with aromas of black cherry, violet, and tobacco leaf. Silky tannins and balanced acidity. Layers of blackberry, cocoa, and a touch of leather.</td>
+      <td>The grape varietal is pinot noir.</td>
+      <td>\nPossibly Cabernet Sauvignon.</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>Mystic Reserve</td>
+      <td>Cabernet Sauvignon</td>
+      <td>Ripe black fruit and herbal aromas with a hint of oak. Full-bodied with grippy tannins. Blackberry and plum flavors with a touch of black pepper and toasted oak.</td>
+      <td>Zinfandel</td>
+      <td>\nIt could be a Cabernet Sauvignon.</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
