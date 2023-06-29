@@ -1,0 +1,866 @@
+[
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Russian River Valley Ritchie Vineyard 2020",
+        "price": "$85",
+        "tasting_note": "Stunning, persistent and intense, with a core of lemon curd and lemon zest, peppery white flower accents and a thread of minerality. Features fresh Honeycrisp apple and dried tarragon, with a hint of salted butter that lingers, but the focus is on freshness, crisp structure and a transparency that lingers on the long finish. "
+    },
+    {
+        "vineyard": "AUBAINE",
+        "wine_name": "Chardonnay Eola-Amity Hills Anahata Vineyard 2020",
+        "price": "$45",
+        "tasting_note": "Fragrant and delicately proportioned, with citrus and white peach flavors accented by stony minerality and lemon verbena. "
+    },
+    {
+        "vineyard": "RIDGE",
+        "wine_name": "Chardonnay Santa Cruz Mountains Monte Bello 2019",
+        "price": "$85",
+        "tasting_note": "Supple and elegant on the palate, but not shy on power, with browned butter, salted toffee and nutmeg notes adding complexity to a core of apricot and peach flavors. Showing a fresh thread of acidity, this is a powerful, complex wine with a long, epic finish. "
+    },
+    {
+        "vineyard": "MOUNT EDEN VINEYARDS",
+        "wine_name": "Chardonnay Santa Cruz Mountains 2019",
+        "price": "$60",
+        "tasting_note": "Vibrant and intense, with roasted nut and toasted spice overtones to the plush peach, lemon curd and marmalade notes. Smooth and supple, but there's an elegant thread of acidity weaving in and out, plus a hint of rooibos tea on the finish. "
+    },
+    {
+        "vineyard": "MASSICAN",
+        "wine_name": "Chardonnay Napa Valley Hyde 2021",
+        "price": "$55",
+        "tasting_note": "Fresh and fragrant, with lemon verbena, fresh ginger, lemongrass and hints of crunchy sea salt to complement the juicy nectarine, tangerine and dried mango flavors on the finish. "
+    },
+    {
+        "vineyard": "HUDSON VINEYARDS",
+        "wine_name": "Chardonnay Napa Valley Carneros 2020",
+        "price": "$75",
+        "tasting_note": "Stunning, showing a generous and smooth mix of vibrant, juicy fruit with lemon curd, peach and Fuji apple, hints of dried tarragon, a touch of sea salt on ripe melon and a smidge of buttery pastry on the long finish. "
+    },
+    {
+        "vineyard": "SOKOL BLOSSER",
+        "wine_name": "Chardonnay Dundee Hills 2020",
+        "price": "$42",
+        "tasting_note": "Generous and multilayered, with pretty apple and lemon flavors that take on blanched almond and peach. "
+    },
+    {
+        "vineyard": "PLANETA",
+        "wine_name": "Chardonnay Menfi 2020",
+        "price": "$46",
+        "tasting_note": "A toasty version for fans of the style, with chopped hazelnut, vanilla and biscuit aromas and flavors accenting a pretty range of glazed apricot and tangerine fruit, lime blossoms and spice. A medium-bodied, bright and focused white, with a lasting, well-meshed finish. "
+    },
+    {
+        "vineyard": "VASSE FELIX",
+        "wine_name": "Chardonnay Margaret River 2020",
+        "price": "$45",
+        "tasting_note": "Impressive for its vitality and intensity, offering lemon curd, salted butterscotch and dried pineapple flavors, with Fuji apple and fresh ginger accents. The flavors are amplified and harmonious on the long, persistent finish. "
+    },
+    {
+        "vineyard": "NANA",
+        "wine_name": "Chardonnay Negev 2019",
+        "price": "$50",
+        "tasting_note": "A concentrated, distinctive white, with a pronounced salted caramel note weaving throughout. Features freshly juiced lemon that plays off creamed honey, chamomile, dried thyme and sweet hay. The salty, succulent finish lingers. Kosher. "
+    },
+    {
+        "vineyard": "KUMEU RIVER",
+        "wine_name": "Chardonnay Kumeu Hunting Hill 2020",
+        "price": "$60",
+        "tasting_note": "Powerful and fragrant, with roasted pineapple, apricot and yellow peach flavors that are ripe, juicy and fleshy, with terrific intensity and an appealing touch of salted caramel on the long finish. "
+    },
+    {
+        "vineyard": "EVENING LAND",
+        "wine_name": "Chardonnay Eola-Amity Hills La Source Seven Springs Estate 2019",
+        "price": "$75",
+        "tasting_note": "A wine of depth and presence, this Chardonnay offers an array of intriguing flavors, from apple and stony mineral to lemon verbena and blanched almond. Takes on richness toward the steely finish. "
+    },
+    {
+        "vineyard": "LINGUA FRANCA",
+        "wine_name": "Chardonnay Eola-Amity Hills Lingua Franca Estate 2019",
+        "price": "$55",
+        "tasting_note": "Takes time to reveal itself fully, slowly expanding and fleshing out with lemon verbena, nectarine, crushed stone and blanched almond accents that build richness on the savory, crisp finish. "
+    },
+    {
+        "vineyard": "MAYACAMAS",
+        "wine_name": "Chardonnay Mount Veeder 2020",
+        "price": "$50",
+        "tasting_note": "Vibrant and intense, with a laser beam of Meyer lemon and yuzu flavors at the core, showcasing lemon thyme, ginger and sea salt minerality on the long finish. "
+    },
+    {
+        "vineyard": "GRO",
+        "wine_name": "Chardonnay Mount Veeder Haspel Vineyard 2020",
+        "price": "$42",
+        "tasting_note": "Pineapple, lemon, pear and yuzu notes are crisp and clean on a sleek frame, with notes of minerality, clipped lemon verbena and fresh grated ginger, with a long, expressive finish. "
+    },
+    {
+        "vineyard": "DEHLINGER",
+        "wine_name": "Chardonnay Russian River Valley Un-Filtered 2020",
+        "price": "$45",
+        "tasting_note": "Rich up front, with pineapple upside-down cake and baked apple flavors on a creamy, supple frame, accented by fresh citrus zest aromatics. Hints of salted butter linger on the finish. "
+    },
+    {
+        "vineyard": "HIBOU",
+        "wine_name": "Chardonnay Napa Valley Carneros 2019",
+        "price": "$50",
+        "tasting_note": "Strikes a terrific balance between generous notes of peach cobbler, butterscotch and lemon meringue flavors while still showing elegance and restraint, with salted, toasted almond notes on the finish. "
+    },
+    {
+        "vineyard": "HARTFORD COURT",
+        "wine_name": "Chardonnay Sonoma Coast Far Coast Vineyard 2019",
+        "price": "$70",
+        "tasting_note": "Offers a pure, powerful laser beam of Meyer lemon, Honeycrisp apple and tangerine, with notes of minerality, beeswax and dried white flowers on a sleek, polished frame. Gains momentum on the long, expressive finish. "
+    },
+    {
+        "vineyard": "LOMBARDI",
+        "wine_name": "Chardonnay Sonoma Coast 2019",
+        "price": "$46",
+        "tasting_note": "Impressive for its intensity and verve, with terrific lemon curd, pineapple and green apple notes that are crisp and fresh, showing notes of white tea, lemon blossom and a hint of beeswax on the finish. "
+    },
+    {
+        "vineyard": "CERITAS",
+        "wine_name": "Chardonnay Sonoma Coast Marena 2018",
+        "price": "$50",
+        "tasting_note": "A stunning portrait in purity, with mouthwatering Meyer lemon, tangerine and Fuji apple flavors. Sleek and seamless, delivering details of crunchy sea salt, clipped lemongrass and dried ginger that add complexity and linger on the finish, where the flavors gain momentum. "
+    },
+    {
+        "vineyard": "LONG SHADOWS VINTNERS",
+        "wine_name": "Chardonnay Columbia Valley Dance 2019",
+        "price": "$42",
+        "tasting_note": "Shows precision and verve, with vibrant lemon, fresh straw and apple blossom accents that glide on the long finish. "
+    },
+    {
+        "vineyard": "BENOVIA",
+        "wine_name": "Chardonnay Russian River Valley La Pommeraie 2019",
+        "price": "$60",
+        "tasting_note": "Powerful and well-structured, with lilting aromas of lemongrass and a rich minerality to the Gala apple and citrusy flavors. Toasty in the midpalate, with buttery accents lingering on the spicy finish. "
+    },
+    {
+        "vineyard": "GRAN MORAINE",
+        "wine_name": "Chardonnay Yamhill-Carlton 2018",
+        "price": "$45",
+        "tasting_note": "Vibrant and minerally, with sleek nectarine and apple flavors that are framed by a rich and supple texture. "
+    },
+    {
+        "vineyard": "PATZ & HALL",
+        "wine_name": "Chardonnay Russian River Valley Dutton Ranch 2019",
+        "price": "$44",
+        "tasting_note": "Firm, powerful and savory, with floral hints to the well-structured pippin apple and green pear flavors that are backed by vibrant acidity. Ends with hints of dried tarragon on the finish. "
+    },
+    {
+        "vineyard": "PATZ & HALL",
+        "wine_name": "Chardonnay Sonoma Coast 2019",
+        "price": "$42",
+        "tasting_note": "Rich, powerful and well-structured, with lemon drop accents to the dried apple and pear tart flavors that show plenty of toasty accents. The creamy finish is boosted by rich acidity. "
+    },
+    {
+        "vineyard": "LA CREMA",
+        "wine_name": "Chardonnay Russian River Valley Saralee's Vineyard 2018",
+        "price": "$45",
+        "tasting_note": "Powerful and structured, with plenty of crushed white stone notes to the crisp green apple and Asian pear flavors that are backed by crunchy acidity. Minerally richness fills the fresh, focused finish. "
+    },
+    {
+        "vineyard": "DUMOL",
+        "wine_name": "Chardonnay Russian River Valley Chloe Ritchie Vineyard 2018",
+        "price": "$72",
+        "tasting_note": "This suave version offers a lithe mix of white fruit and savory spice flavors, filled with vibrant acidity. Unctuous lemon drop notes midpalate lead to a finish loaded with creamy richness. "
+    },
+    {
+        "vineyard": "GOGI",
+        "wine_name": "Chardonnay Sta. Rita Hills Goldie 2017",
+        "price": "$50",
+        "tasting_note": "Vibrant, with luscious acidity backing the rich, broad-textured flavors of roasted pineapple, dried mango and ripe pear. Shows a toasty thread on the finish, topped by a dollop of butter and plenty of spice notes. "
+    },
+    {
+        "vineyard": "LA CREMA",
+        "wine_name": "Chardonnay Russian River Valley Saralee's Vineyard 2017",
+        "price": "$45",
+        "tasting_note": "An elegant and focused style, with lithe minerality enriching the concentrated apple, pear tart and dried apricot flavors. Lilting midpalate, showing hints of cr\u00e8me br\u00fbl\u00e9e on the finish. "
+    },
+    {
+        "vineyard": "KENDALL-JACKSON",
+        "wine_name": "Chardonnay Santa Maria Valley Estates Collection Camelot Highlands 2018",
+        "price": "$45",
+        "tasting_note": "A suave and toasty style, with lusciously spiced flavors of apple pastry, pear tart and brioche, supported by crunchy acidity. The minerally finish features buttery accents that are balanced and fresh-tasting. "
+    },
+    {
+        "vineyard": "FERREN",
+        "wine_name": "Chardonnay Sonoma Coast Silver Eagle Vineyard 2017",
+        "price": "$80",
+        "tasting_note": "Tropical fruit flavors of dried mango, pineapple and coconut are neatly woven together in this ripe, decadent style. The buttery finish is filled with pastry and toasty notes. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Russian River Valley Woolsey Road Vineyard 2017",
+        "price": "$70",
+        "tasting_note": "Taut, with focused green apple, Asian pear and honeydew melon flavors, backed by vibrant acidity. Savory midpalate, leading to a finish filled with lemon meringue notes and minerally richness. "
+    },
+    {
+        "vineyard": "DUMOL",
+        "wine_name": "Chardonnay Napa Valley Carneros Hyde Vineyard 2017",
+        "price": "$65",
+        "tasting_note": "Plush and spicy, with a creamy texture to the blend of ripe white fruit and citrus flavors. Notes of brioche show midpalate, revealing rich toasty and buttery details on the unctuous finish. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Russian River Valley Trenton Roadhouse 2017",
+        "price": "$90",
+        "tasting_note": "Vibrantly crisp, fresh and focused, with a minerally richness to the green apple and lemon-lime flavors, backed by vibrant acidity. Quince paste notes and hints of dried tarragon show on the juicy finish. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Russian River Valley Dutton Ranch 2017",
+        "price": "$90",
+        "tasting_note": "Pure and precise, with a lithe blend of intense white fruit and minerality, backed by juicy acidity. The vibrant finish is filled with lemongrass notes and long, powerful hints of savory herb. "
+    },
+    {
+        "vineyard": "WALT",
+        "wine_name": "Chardonnay Sonoma Coast Sangiacomo Vineyard 2018",
+        "price": "$55",
+        "tasting_note": "Apple and pear pastry flavors are creamy and well-knit in this open-textured style that is seductively spiced. Light buttery notes fill the finish, which features hints of dried tarragon. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Napa Valley Carneros Hyde Vineyard 2017",
+        "price": "$70",
+        "tasting_note": "Focused and vibrant, with notes of tangerine to the freshly cut green apple, Asian pear and citrus flavors. Saline accents show on the crisp, minerally finish, revealing hints of dried mint. "
+    },
+    {
+        "vineyard": "ARTESA",
+        "wine_name": "Chardonnay Napa Valley Los Carneros Block 92 Estate Vineyard 2017",
+        "price": "$60",
+        "tasting_note": "A refined style, with vibrant acidity backing the well-knit flavors of apple, pear and ripe melon. Toasty richness shows midpalate, featuring light buttery accents on the spicy finish. "
+    },
+    {
+        "vineyard": "AUBERT",
+        "wine_name": "Chardonnay Sonoma Coast Uv-Sl Vineyard 2018",
+        "price": "$85",
+        "tasting_note": "Lithe, with notes of dried thyme to the Gala apple and pear tart flavors, rich and pure. Toasty accents show midpalate. The long finish is filled with flinty and minerally components. "
+    },
+    {
+        "vineyard": "CHAPPELLET",
+        "wine_name": "Chardonnay Carneros Grower Collection Sangiacomo Vineyard 2018",
+        "price": "$49",
+        "tasting_note": "Well-structured, with fresh acidity backing the white and dried tropical fruit flavors. Sage cream accents show midpalate, with a long, plush finish that exudes cream and cooking spice notes. "
+    },
+    {
+        "vineyard": "AUBERT",
+        "wine_name": "Chardonnay Carneros Larry Hyde & Sons 2018",
+        "price": "$85",
+        "tasting_note": "Broad and rich, with seductive smoky notes to the ripe apple and pear pastry flavors. Buttery accents show midpalate, leading to an intensely spicy finish. "
+    },
+    {
+        "vineyard": "HUDSON VINEYARDS",
+        "wine_name": "Chardonnay Napa Valley Carneros 2018",
+        "price": "$65",
+        "tasting_note": "Big and rich, featuring a plush texture to the concentrated pear tart, apple pastry and dried apricot flavors. Viscous midpalate, with savory snap to the finish, which delivers minerally and toasty notes. "
+    },
+    {
+        "vineyard": "HANZELL",
+        "wine_name": "Chardonnay Sonoma Valley 2017",
+        "price": "$78",
+        "tasting_note": "Well-structured, with focused and pure flavors of freshly cut apple, pear and gooseberry, featuring sea salt and minerally accents. Hints of fennel and dried thyme show on the finish. "
+    },
+    {
+        "vineyard": "WAYFARER",
+        "wine_name": "Chardonnay Fort Ross-Seaview Wayfarer Vineyard 2018",
+        "price": "$80",
+        "tasting_note": "Big and rich, with hints of toasted coconut to the ripe apple, pear and melon flavors that glide across the palate, accented by smoky richness. The unctuous finish lingers, revealing notes of lemon drop and buttered toast. "
+    },
+    {
+        "vineyard": "JOSEPH PHELPS",
+        "wine_name": "Chardonnay Sonoma Coast Freestone Vineyards 2018",
+        "price": "$60",
+        "tasting_note": "Intense minerality accents the sleek pear tart and apple pastry flavors, loaded with rich, vibrant acidity. Viscous midpalate, with angel food and creamy accents on the luscious and well-spiced finish. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Fort Ross-Seaview 2017",
+        "price": "$42",
+        "tasting_note": "Powerful and well-structured, featuring concentrated Gala apple and white cherry flavors, backed by fresh acidity. Sea salt accents show midpalate, with a minerally finish. "
+    },
+    {
+        "vineyard": "DUMOL",
+        "wine_name": "Chardonnay Russian River Valley Wester Reach 2017",
+        "price": "$56",
+        "tasting_note": "Fleshy, with rich spiciness to the ripe, open-textured apple pastry, ripe pear and glazed apricot flavors. Buttery and toasty notes linger on the firm, juicy finish. "
+    },
+    {
+        "vineyard": "KOSTA BROWNE",
+        "wine_name": "Chardonnay Russian River Valley One Sixteen 2018",
+        "price": "$85",
+        "tasting_note": "Well-structured, with crisp, minerally verve to the freshly cut green apple and nectarine flavors. Lots of buttery pastry notes show on the lively, pure-tasting finish. "
+    },
+    {
+        "vineyard": "FLOWERS",
+        "wine_name": "Chardonnay Sonoma Coast 2018",
+        "price": "$50",
+        "tasting_note": "Lithe and juicy, featuring well-framed flavors of pear, apple and ripe melon, packed with fresh acidity. Pastry and allspice notes show on the engaging finish, accented by hints of dried savory. "
+    },
+    {
+        "vineyard": "PETER MICHAEL",
+        "wine_name": "Chardonnay Knights Valley La Carri\u00e8re 2018",
+        "price": "$100",
+        "tasting_note": "Sleek and powerful, with crunchy acidity backing the concentrated white fruit and berry flavors, filled with minerally richness. Hints of dried thyme show on the svelte finish, which offers toasty and buttery accents. "
+    },
+    {
+        "vineyard": "LEWIS",
+        "wine_name": "Chardonnay Napa Valley 2018",
+        "price": "$55",
+        "tasting_note": "Well-knit and powerfully structured, with unctuous flavors of ripe pear, apple pastry and dried mango, filled with toasty notes. The creamy finish lingers with hints of dried sage and quince paste. "
+    },
+    {
+        "vineyard": "YERINGBERG",
+        "wine_name": "Chardonnay Yarra Valley 2017",
+        "price": "$50",
+        "tasting_note": "Bright and expressive, with a laser beam of focus to the nectarine, melon and apricot flavors that are succulent, fragrant and juicy. A fresh thread of acidity heightens the opulence. The finish goes on and on, leaning into notes of candied ginger. "
+    },
+    {
+        "vineyard": "EL MOLINO",
+        "wine_name": "Chardonnay Rutherford 2017",
+        "price": "$60",
+        "tasting_note": "Creamy and rich-tasting, with luscious baked apple, ripe pear and peach pastry flavors that are well-structured and backed by fresh acidity. Spicy and buttery midpalate, revealing toasty and savory notes on the finish. "
+    },
+    {
+        "vineyard": "BREWER-CLIFTON",
+        "wine_name": "Chardonnay Sta. Rita Hills 3D 2017",
+        "price": "$65",
+        "tasting_note": "Sleek, with powerful minerality to the pure-tasting flavors of pear tart, apple pastry and peach. Rich lemon curd accents fill in midpalate and linger on the spicy and well-framed finish. "
+    },
+    {
+        "vineyard": "PATZ & HALL",
+        "wine_name": "Chardonnay Russian River Valley Zio Tony Ranch 2017",
+        "price": "$70",
+        "tasting_note": "Pure and minerally tasting, with dried savory herbal accents to the refined white fruit flavors. The creamy finish is long and rich-tasting, offering hints of marzipan. "
+    },
+    {
+        "vineyard": "RAM'S GATE",
+        "wine_name": "Chardonnay Carneros 2016",
+        "price": "$42",
+        "tasting_note": "The well-sculpted lemon meringue, apple tart and poached pear flavors show toasty richness. The spicy finish offers pastry and spice notes. "
+    },
+    {
+        "vineyard": "HAMILTON RUSSELL",
+        "wine_name": "Chardonnay Hemel-En-Aarde Valley 2018",
+        "price": "$43",
+        "tasting_note": "A substantial white, with a big profile. The acidity gives this energy, delivering plenty of zest to the ripe pear and blood orange flavors, framed by hints of cream, tarragon and nutmeg. The vibrant finish leaves a mouthwatering aftertaste. "
+    },
+    {
+        "vineyard": "BERINGER",
+        "wine_name": "Chardonnay Napa Valley Private Reserve 2017",
+        "price": "$48",
+        "tasting_note": "Suave, featuring an elegant, airy structure, with flavors of apple, quince paste and dried pear. Creamy midpalate, offering a long, plush and well-spiced finish. "
+    },
+    {
+        "vineyard": "STONESTREET",
+        "wine_name": "Chardonnay Alexander Valley 2016",
+        "price": "$45",
+        "tasting_note": "Vibrant minerality meets crisp white fruit flavors, with dried savory notes midpalate. The resonant finish offers citrus zest and chamomile accents. "
+    },
+    {
+        "vineyard": "PAUL HOBBS",
+        "wine_name": "Chardonnay Russian River Valley 2017",
+        "price": "$55",
+        "tasting_note": "Powerful and minerally, with hints of white pepper to the baked apple, pear and tangerine flavors. The lively finish is crisp and focused, offering plenty of spice and lightly buttery notes. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Fort Ross-Seaview 2016",
+        "price": "$42",
+        "tasting_note": "Rich and well-sculpted, with lemon-lime notes to the fresh-cut apple, quince and pear flavors. Minerally midpalate, offering refreshing saline and flinty hints on the structured finish. "
+    },
+    {
+        "vineyard": "MAYACAMAS",
+        "wine_name": "Chardonnay Mount Veeder 2017",
+        "price": "$50",
+        "tasting_note": "Vibrantly fresh, with well-proportioned flavors of McIntosh apple, Asian pear and dried quince, backed by fresh acidity. The minerally finish lingers with good snap. "
+    },
+    {
+        "vineyard": "RIDGE",
+        "wine_name": "Chardonnay Santa Cruz Mountains Estate 2017",
+        "price": "$55",
+        "tasting_note": "A big, rich and showy white, filled with spicy notes to the ripe apple, pear and wild herb flavors. Minerally and buttery accents emerge on the contoured finish. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills Evenstad Reserve 2016",
+        "price": "$65",
+        "tasting_note": "Sleek and graceful, with floral apple and Meyer lemon flavors accented by lively acidity and spice hints that linger on the finish. "
+    },
+    {
+        "vineyard": "LVE",
+        "wine_name": "Chardonnay Napa Valley Legend Vineyard Exclusive 2016",
+        "price": "$45",
+        "tasting_note": "Lithe, offering a fine balance between the broad texture and rich white fruit and spice flavors. The creamy finish is rich and juicy, with notes of honeysuckle. "
+    },
+    {
+        "vineyard": "MOUNT EDEN VINEYARDS",
+        "wine_name": "Chardonnay Santa Cruz Mountains 2015",
+        "price": "$65",
+        "tasting_note": "Deeply hued and very rich, with notes of beeswax and light smoke to the ripe pear, apple and Marcona almond flavors. The vividly structured finish shows lots of mineral and spice components and plenty of vanillin details. "
+    },
+    {
+        "vineyard": "CLOS DE GAT",
+        "wine_name": "Chardonnay Judean Hills 2015",
+        "price": "$45",
+        "tasting_note": "A distinct, full-bodied white, with supple layers of orange blossom, lemon oil and glazed apple flavors marked by mineral and baking spice elements. Offers a long, floral-tinged finish. "
+    },
+    {
+        "vineyard": "LUTUM",
+        "wine_name": "Chardonnay Sonoma Coast Durell Vineyard 2015",
+        "price": "$50",
+        "tasting_note": "Offers concentrated and pure-tasting flavors of fresh-cut apple, Asian pear and kiwifruit that are rich, with tensile minerality. Smoky notes show on the long, well-honed finish. "
+    },
+    {
+        "vineyard": "LIQUID FARM",
+        "wine_name": "Chardonnay Sta. Rita Hills Golden Slope 2015",
+        "price": "$52",
+        "tasting_note": "The focused flavors of Fuji apple, nectarine and pear tart are very plush. Engaging red fruit accents show on the pure-tasting finish. "
+    },
+    {
+        "vineyard": "BIG TABLE FARM",
+        "wine_name": "Chardonnay Willamette Valley 2016",
+        "price": "$45",
+        "tasting_note": "Graceful and vibrant, with floral Meyer lemon and verbena aromas and elegantly layered apple and spice flavors that linger on the finish. "
+    },
+    {
+        "vineyard": "RUSTENBERG",
+        "wine_name": "Chardonnay Simonsberg-Stellenbosch Five Soldiers 2015",
+        "price": "$50",
+        "tasting_note": "Ripe and stylish, with alluring creamed pear and green apple fruit flavors gliding through, gilded with light matchstick and warm shortbread notes along the way. Rounded finish. This is why people love Chardonnay. "
+    },
+    {
+        "vineyard": "KUNDE ESTATE",
+        "wine_name": "Chardonnay Sonoma Valley Reserve 2016",
+        "price": "$45",
+        "tasting_note": "Big, rich and complete, with tiers of green apple, spice and toasty oak notes that take on a perfumed creaminess on the finish. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Chardonnay Napa Valley 2016",
+        "price": "$75",
+        "tasting_note": "Rich and generous, offering an outlay of fig, honeydew, anise and light apricot flavors. Shows a measure of finesse and grace. Given the full body, this is quite elegant. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Russian River Valley Westside Farms 2015",
+        "price": "$65",
+        "tasting_note": "Tilts toward the herbal side of Chardonnay. Oak is a factor, and though the fruit lacks brightness, this offers nuances of cedar and underbrush that deliver a pleasant earthiness. "
+    },
+    {
+        "vineyard": "LEWIS",
+        "wine_name": "Chardonnay Russian River Valley Sonoma 2016",
+        "price": "$55",
+        "tasting_note": "Rich, deep and layered, with a complex mix of pear, fig, apricot and smoky oak elements. A wall-to-wall sensation on the palate. "
+    },
+    {
+        "vineyard": "CHALK HILL",
+        "wine_name": "Chardonnay Chalk Hill 2015",
+        "price": "$42",
+        "tasting_note": "Lots of spice, apricot, fig and honeydew melon flavors combine for a full-bodied, mouth-coating experience, with a finish that sails on and on, gaining depth. "
+    },
+    {
+        "vineyard": "AYOUB",
+        "wine_name": "Chardonnay Dundee Hills 2016",
+        "price": "$48",
+        "tasting_note": "Vibrant and refined, with floral tangerine and quince aromas and polished, elegantly layered pear and wet stone flavors that glide along the finish. "
+    },
+    {
+        "vineyard": "LEEUWIN",
+        "wine_name": "Chardonnay Margaret River Art Series 2014",
+        "price": "$89",
+        "tasting_note": "There's delicacy and finesse to the honeysuckle, peach and pear flavors in this white, but also plenty of power to the intensity and focus. Smooth and supple, this has an almost slippery texture, with perfumed and spicy notes gaining momentum on the finish. "
+    },
+    {
+        "vineyard": "PETER MICHAEL",
+        "wine_name": "Chardonnay Knights Valley Belle C\u00f4te 2015",
+        "price": "$95",
+        "tasting_note": "Combines rich, lively fig, melon and apricot with smoky, toasty oak shadings, giving this a sense of harmony, finesse, depth and complexity without being weighty. "
+    },
+    {
+        "vineyard": "V. SATTUI",
+        "wine_name": "Chardonnay Los Carneros 2015",
+        "price": "$42",
+        "tasting_note": "Rich and layered, with tiers of fig, melon and apricot, showing a nice overlay of spicy, toasty oak. All the elements fold together on the long, persistent aftertaste. "
+    },
+    {
+        "vineyard": "RIDGE",
+        "wine_name": "Chardonnay Santa Cruz Mountains Estate 2015",
+        "price": "$65",
+        "tasting_note": "Minerally and intense, with plenty of buttery notes, this well-spiced version pivots around a core of baked apple and pear tart flavors. Fresh and juicy midpalate, followed by a finish loaded with dried fig accents. "
+    },
+    {
+        "vineyard": "THREE STICKS",
+        "wine_name": "Chardonnay Sonoma Valley Durell Vineyard 2014",
+        "price": "$55",
+        "tasting_note": "An understated, graceful style, with a hint of lemon amid the green apple, pear and melon flavors, shaded lightly by oak on the long, engaging finish. "
+    },
+    {
+        "vineyard": "TALBOTT",
+        "wine_name": "Chardonnay Santa Lucia Highlands Sleepy Hollow Vineyard 2014",
+        "price": "$50",
+        "tasting_note": "Fresh and crunchy, with ripe nectarine, baked apple and lemon meringue flavors, supported by firm acidity. The spicy finish offers lemon curd and pastry notes. "
+    },
+    {
+        "vineyard": "ENROUTE",
+        "wine_name": "Chardonnay Russian River Valley Brumaire 2015",
+        "price": "$55",
+        "tasting_note": "Dense and concentrated, with spicy baked apple flavors, light oak and touches of nutmeg and baking spices. Ends true to the beginning, strong and persistent. "
+    },
+    {
+        "vineyard": "PLANETA",
+        "wine_name": "Chardonnay Menfi 2015",
+        "price": "$42",
+        "tasting_note": "Bright and expressive, this elegant white is finely knit, with rich accents of oak spice and toast underscoring flavors of lemon parfait, Gala apple and lime blossom. Fine and creamy, presenting a lingering, minerally finish. "
+    },
+    {
+        "vineyard": "PLANETA",
+        "wine_name": "Chardonnay Sicilia 2014",
+        "price": "$42",
+        "tasting_note": "An elegant, medium-bodied white, featuring rich flavors of glazed apricot and salted butter, with hints of crushed hazelnut, lime blossom and lemon curd. This is reined in by sleek, focusing acidity and a subtle streak of smoky minerality. "
+    },
+    {
+        "vineyard": "CHALK HILL",
+        "wine_name": "Chardonnay Chalk Hill 2014",
+        "price": "$42",
+        "tasting_note": "Strikes a balance between rich, spicy oak and an intense core of fruit, echoing pear, apple and melon flavors. Maintains equilibrium, ending with creamy, vanilla-scented oak notes. "
+    },
+    {
+        "vineyard": "SHAFER",
+        "wine_name": "Chardonnay Napa Valley Carneros Red Shoulder Ranch 2014",
+        "price": "$52",
+        "tasting_note": "Elegance and finesse define the pear, melon and honeysuckle flavors, which are lingering and persistent. The creamy texture features a touch of pithy citrus skin, adding to the nuance and complexity. "
+    },
+    {
+        "vineyard": "DOG POINT",
+        "wine_name": "Chardonnay Marlborough 2014",
+        "price": "$42",
+        "tasting_note": "Vivid, stylish and expressive, with layers of sweet cream, orange blossom, nutmeg and mango flavors that are rich, juicy and succulent, revealing plenty of intensity and energy on the long, lingering finish. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Russian River Valley Vine Hill Vineyard 2013",
+        "price": "$80",
+        "tasting_note": "Young and vibrant, with a core of honeydew melon, creamy oak and pithy citrus flavors that are commanding, tight and focused. Long and persistent on the finish. "
+    },
+    {
+        "vineyard": "KUMEU RIVER",
+        "wine_name": "Chardonnay Kumeu Hunting Hill 2013",
+        "price": "$49",
+        "tasting_note": "Intense and focused, with plenty of toasted herb and cedar notes providing an aromatic lift to the core of marmalade, pear, spice and honeysuckle shadings. Finishes with bright, refreshing acidity. "
+    },
+    {
+        "vineyard": "PETER MICHAEL",
+        "wine_name": "Chardonnay Knights Valley Mon Plaisir 2014",
+        "price": "$90",
+        "tasting_note": "Shows plenty of up-front wood that works into a more complete and compelling effort, offering tiers of pithy citrus, honeydew, green apple and pear flavors, ending spicy. "
+    },
+    {
+        "vineyard": "RIDGE",
+        "wine_name": "Chardonnay Santa Cruz Mountains Monte Bello 2012",
+        "price": "$70",
+        "tasting_note": "A strong toasty oak character takes on a matchstick edge, imparting an edgy, pithy texture, yet this smoothes out, maintaining fruit integrity and density, finishing strong and persistent. "
+    },
+    {
+        "vineyard": "RAMEY",
+        "wine_name": "Chardonnay Russian River Valley Ritchie Vineyard 2013",
+        "price": "$65",
+        "tasting_note": "Shows amazing vibrancy and purity of flavor, brimming with juicy, lemon-scented green apple, white peach and tangerine notes, enlivened by zesty acidity and a long, persistent aftertaste that maintains focus and depth. "
+    },
+    {
+        "vineyard": "RICHARD KERSHAW",
+        "wine_name": "Chardonnay Elgin Clonal Selection 2013",
+        "price": "$60",
+        "tasting_note": "Offers crystalized ginger and lemon peel notes mixed with bright quinine and honeysuckle accents, carrying through a racy yellow apple and anise finish. Distinctive and delicious. "
+    },
+    {
+        "vineyard": "FORT ROSS",
+        "wine_name": "Chardonnay Fort Ross-Seaview Fort Ross Vineyard 2014",
+        "price": "$44",
+        "tasting_note": "Robust and richly flavored, built around honeyed apricot, fig and melon notes, with cedary oak accents. Ends with a woody aftertaste, but nothing time won't resolve. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills Etoile Vineyard 2013",
+        "price": "$75",
+        "tasting_note": "Deftly balanced, skipping lightly as this unfurls hazelnut-accented pear and floral flavors, lingering gently on the open-textured finish. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Carneros Hudson Vineyard 2013",
+        "price": "$80",
+        "tasting_note": "Combines richness with a creamy texture, allowing the taut citrus, pear, melon and fig notes to fan out, gaining depth and length. Displays beautifully integrated smoky oak nuances. "
+    },
+    {
+        "vineyard": "EVENING LAND",
+        "wine_name": "Chardonnay Eola-Amity Hills Seven Springs Vineyard 2013",
+        "price": "$45",
+        "tasting_note": "Fresh and inviting, lively on balance, with tangy citrus and lemon marmalade notes underlying the apple and spice flavors, lingering on the finish. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills Evenstad Reserve 2013",
+        "price": "$55",
+        "tasting_note": "Taut, crisp and distinctive, offering white nectarine, green pineapple and spice flavors that come together harmoniously on the sleek and expressive finish. "
+    },
+    {
+        "vineyard": "EVENING LAND",
+        "wine_name": "Chardonnay Eola-Amity Hills Seven Springs Vineyard La Source 2013",
+        "price": "$70",
+        "tasting_note": "Taut, focused, complex and immediately inviting, deftly layering pear, nectarine, citrus, loamy earth and floral aromas and flavors as the finish plays on. Shows good tension between the fruit and savory notes. "
+    },
+    {
+        "vineyard": "AUTHENTIQUE",
+        "wine_name": "Chardonnay Eola-Amity Hills Keeler Estate Vineyard 2012",
+        "price": "$50",
+        "tasting_note": "Polished, expressive and distinctive, with ripe pear and spice flavors set over a sleek, airy structure, finishing with crispness and finesse. "
+    },
+    {
+        "vineyard": "ARISTA",
+        "wine_name": "Chardonnay Russian River Valley Ritchie Vineyard 2013",
+        "price": "$60",
+        "tasting_note": "Presents a tight, solid, direct core of pear, apple, citrus and melon flavors, fanning out with a splash of toasty oak. Turns silky smooth, ending with a persistent anise and black licorice edge. "
+    },
+    {
+        "vineyard": "KUMEU RIVER",
+        "wine_name": "Chardonnay Kumeu Hunting Hill 2012",
+        "price": "$49",
+        "tasting_note": "Tangy lemon meringue, honey and pear flavors show an appealing buttery note, with floral and spice highlights, a delicate but refreshing acidity and silky texture. Plenty of spice and Meyer lemon notes crescendo on the finish. "
+    },
+    {
+        "vineyard": "DE LANCELLOTTI",
+        "wine_name": "Chardonnay Willamette Valley 2013",
+        "price": "$50",
+        "tasting_note": "Supple, expressive and elegant, with polished texture to the relatively light but intense pear, pepper and fresh cream flavors, lingering effectively. Has depth and presence. "
+    },
+    {
+        "vineyard": "ASHAN",
+        "wine_name": "Chardonnay Yakima Valley Kestrel Vineyard 2013",
+        "price": "$45",
+        "tasting_note": "Shows great presence, offering pear, pineapple and green guava flavors on a silky frame, braced with a fine thread of acidity that keeps this flowing gracefully into the expressive finish. "
+    },
+    {
+        "vineyard": "SAXON BROWN",
+        "wine_name": "Chardonnay Sonoma Coast Durell Vineyard 2012",
+        "price": "$58",
+        "tasting_note": "Ultrarich and concentrated, with a tight beam of honey-laced apricot, fig and honeydew notes that offer power, persistence and depth, gliding along gracefully, turning elegant and nuanced. "
+    },
+    {
+        "vineyard": "FAILLA",
+        "wine_name": "Chardonnay Russian River Valley Keefer Ranch 2012",
+        "price": "$42",
+        "tasting_note": "Pure and focused, with a supple core of green apple, lemony citrus, spice, creamy oak and vanilla notes. Ends long and lingering, with a juicy core of fruit. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills Evenstad Reserve 2012",
+        "price": "$55",
+        "tasting_note": "A fresh and vibrant white, polished in texture and juicy, with star fruit, grapefruit and peach flavors that zip against lively acidity through a spicy, complete and harmonious finish. Shows impressive presence and length. "
+    },
+    {
+        "vineyard": "EVENING LAND",
+        "wine_name": "Chardonnay Eola-Amity Hills Seven Springs Vineyard La Source 2012",
+        "price": "$65",
+        "tasting_note": "Fresh, elegant and expressive, with a lovely open texture that lets the spicy, minerally pear and pineapple flavors glow brightly as the finish gains momentum. Has depth and sinuous shape. "
+    },
+    {
+        "vineyard": "SANDHI",
+        "wine_name": "Chardonnay Sta. Rita Hills Rita's Crown 2012",
+        "price": "$55",
+        "tasting_note": "Gracefully balanced, with vibrant, grapefruit-infused acidity that provides lively tension between the citrus, green apple and honeydew melon notes. Pure and zesty on the finish. "
+    },
+    {
+        "vineyard": "MOUNT EDEN VINEYARDS",
+        "wine_name": "Chardonnay Santa Cruz Mountains 2011",
+        "price": "$60",
+        "tasting_note": "This stunning wine is deliciously rich and layered, with vibrant flavors of honeydew, honeysuckle, fig and mineral shaded by seductive toasty oak. The flavors build, displaying a deep measure of intensity and persistence. "
+    },
+    {
+        "vineyard": "BERGSTR\u00d6M",
+        "wine_name": "Chardonnay Willamette Valley Sigrid 2012",
+        "price": "$85",
+        "tasting_note": "Crisp and lively, with vibrant, honeyed pear and spice flavors playing against racy acidity. Has generosity and impressive depth. "
+    },
+    {
+        "vineyard": "BIG TABLE FARM",
+        "wine_name": "Chardonnay Willamette Valley 2012",
+        "price": "$42",
+        "tasting_note": "This is brilliantly focused, tangy and balanced, offering towering flavors of pear, pineapple, cream and floral on a pinpoint of acidity, broadening into an expressive, explosive finish. Delivers tremendous precision, persistence and expression. "
+    },
+    {
+        "vineyard": "ASHAN",
+        "wine_name": "Chardonnay Yakima Valley Kestrel Vineyard 2012",
+        "price": "$45",
+        "tasting_note": "Rich, ripe and generous, this white offers a tight framework, directing its pear, pineapple, almond milk and spice flavors into a bright beam that shines right through the long, expressive finish. "
+    },
+    {
+        "vineyard": "PENFOLDS",
+        "wine_name": "Chardonnay Tasmania Yattarna 2010",
+        "price": "$130",
+        "tasting_note": "Crisp, taut and sharply focused, delivering a lively and expressive mouthful of lime-accented pear, floral and mineral flavors that come together seamlessly on the finish. This shows intensity without weight, with depth to spare. "
+    },
+    {
+        "vineyard": "MOUTARD P\u00c8RE & FILS",
+        "wine_name": "Brut Chardonnay Champagne Champ Persin NV (2013)",
+        "price": "$42",
+        "tasting_note": "Ripe Gala apple, peach and guava fruit notes lead the way in this juicy version, backed by mouthwatering acidity and a fine, creamy bead. Delivers hints of candied almond, ginger, kumquat and coconut. Disgorged May 2012. "
+    },
+    {
+        "vineyard": "NEWTON",
+        "wine_name": "Chardonnay Carneros Unfiltered Limited Edition 2010",
+        "price": "$60",
+        "tasting_note": "Attractive perfumed floral and ripe fruit aromas cluster around ripe fig, apricot, baked apple and light toasty oak, gaining depth and ending with a pure, rich aftertaste. "
+    },
+    {
+        "vineyard": "GIANT STEPS",
+        "wine_name": "Chardonnay Yarra Valley Arthurs Creek Vineyard 2011",
+        "price": "$42",
+        "tasting_note": "Polished and expressive, this is layered with a range of flavors, building a tower of pear and green apple at the center, with hints of tangerine peel and hazelnut. Finishes with intensity on a sleek frame. "
+    },
+    {
+        "vineyard": "KONGSGAARD",
+        "wine_name": "Chardonnay Napa Valley 2010",
+        "price": "$75",
+        "tasting_note": "A tour de force that stretches the range of flavors, rich and laden with roasted, smoky marshmallow, showing tiers of marmalade, tangerine, roasted fig and fig tapenade, sailing along seamlessly through the finish. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills Clos Du Soleil Vineyard Dijon Clones 2010",
+        "price": "$65",
+        "tasting_note": "Fresh, vibrant and beautifully focused, offering green apple and ripe pear flavors on a sleek frame, persisting on the lively, cream-tinged finish. "
+    },
+    {
+        "vineyard": "PAUL HOBBS",
+        "wine_name": "Chardonnay Russian River Valley Ulises Valdez Vineyard 2010",
+        "price": "$70",
+        "tasting_note": "Rich and deeply flavored, yet elegant and stylish, with creamy fig, anise, honeydew melon and vanilla-laced oak. The flavors push through on the long, detailed finish. "
+    },
+    {
+        "vineyard": "LEWIS",
+        "wine_name": "Chardonnay Napa Valley 2011",
+        "price": "$50",
+        "tasting_note": "Bold, rich and full-bodied, with a potent array of ripe fig, honeysuckle, anise, apricot and smoke flavors that are deep and extracted, ending with a long, mouthcoating finish. "
+    },
+    {
+        "vineyard": "NEWTON",
+        "wine_name": "Chardonnay Napa County Unfiltered 2009",
+        "price": "$60",
+        "tasting_note": "A rich, creamy style, with ripe fig, honeysuckle, honeydew melon and apricot flavors. Full-blown and persistent. "
+    },
+    {
+        "vineyard": "EVENING LAND",
+        "wine_name": "Chardonnay Eola-Amity Hills Seven Springs Vineyard Summum 2010",
+        "price": "$90",
+        "tasting_note": "Light, racy and aromatic, with depth, offering mineral notes of crushed wet stone before delivering beautifully restrained apple, pineapple and citrus flavors that play against a lean, sinewy frame. The finish doesn't quit. "
+    },
+    {
+        "vineyard": "SHAFER",
+        "wine_name": "Chardonnay Napa Valley Carneros Red Shoulder Ranch 2010",
+        "price": "$48",
+        "tasting_note": "Fresh and lively, offering mouthwatering tangerine, peach and nectarine flavors that are fine and delicate, with floral citrus and honeysuckle scents. "
+    },
+    {
+        "vineyard": "FLOWERS",
+        "wine_name": "Chardonnay Sonoma Coast Camp Meeting Ridge 2010",
+        "price": "$60",
+        "tasting_note": "Fresh and snappy, with vivid lemon-citrus\u2013infused green apple and pear. Lively acidity gives this a mouthwatering vitality. Subtle oak adds aroma and texture. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Sonoma Coast Durell Vineyard 2009",
+        "price": "$75",
+        "tasting_note": "This delivers a subtle, toned-down mix of citrus, green apple, mineral and apple blossom flavors, turning graceful and silky. Long, persistent finish. "
+    },
+    {
+        "vineyard": "STAGLIN",
+        "wine_name": "Chardonnay Napa Valley 2010",
+        "price": "$75",
+        "tasting_note": "Understated, with subtle white peach, nectarine and dried apricot notes, this gains a nice spicy edge. Pure, clean finish. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Chardonnay Sonoma Coast 2010",
+        "price": "$75",
+        "tasting_note": "A tour de force, with layers of rich, smoky oak, fig, honeydew melon and baked, glazed apple, this weaves together a broad range of flavors, yet for all its size remains elegant and delicate. A roasted marshmallow aftertaste marks the finish. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Chardonnay Napa Valley 2010",
+        "price": "$70",
+        "tasting_note": "Serves up a complex mix of creamy fig, honeysuckle, anise, baked apple and spice flavors, all while maintaining a tight, upright posture and ending with a long, persistent finish. "
+    },
+    {
+        "vineyard": "LANDMARK",
+        "wine_name": "Chardonnay Sonoma Coast Heintz 2009",
+        "price": "$45",
+        "tasting_note": "Crisp and a bit pithy, with green apple, subtle honeydew melon, graham cracker and mineral notes. This is a tight, well-built and engagingly complex wine that surprises with every sip. "
+    },
+    {
+        "vineyard": "NEWTON",
+        "wine_name": "Chardonnay Napa County Unfiltered 2008",
+        "price": "$60",
+        "tasting_note": "A very distinctive and exotic style that's well-executed. Ultrarich and creamy, offering a medley of butterscotch, fig, roasted marshmallow and honeysuckle flavors, ending with a lingering finish. "
+    },
+    {
+        "vineyard": "CHALK HILL",
+        "wine_name": "Chardonnay Chalk Hill 2009",
+        "price": "$48",
+        "tasting_note": "Rich and complex, with spicy melon, honeysuckle, fig, apricot and nutmeg flavors. Full-bodied, retaining its focus on the long, smoky, full-bodied finish. "
+    },
+    {
+        "vineyard": "KISTLER",
+        "wine_name": "Chardonnay Sonoma Coast Parmelee-Hill Vineyard Stone Flat 2008",
+        "price": "$75",
+        "tasting_note": "Intense, with rich layers of smoky oak, ripe fig, melon and roasted marshmallow. Full-bodied, with touches of nutmeg, anise and roasted fig. All in all very complex and distinctive. "
+    },
+    {
+        "vineyard": "ELENA WALCH",
+        "wine_name": "Chardonnay Alto Adige Castel Ringberg Riserva 2008",
+        "price": "$48",
+        "tasting_note": "This medium-bodied Chardonnay is finely meshed, showing a streak of minerality paired with a creamy texture and smoky flavors of apple, pear, pastry, anise and fleur de sel. Elegant and balanced, with a fresh and tangy finish. "
+    },
+    {
+        "vineyard": "DOMAINE SERENE",
+        "wine_name": "Chardonnay Dundee Hills C\u00f4te Sud Vineyard Dijon Clones 2008",
+        "price": "$45",
+        "tasting_note": "Supple and graceful, glowing with pear, lime, cream and clove flavors that expand beautifully on the long, vivid finish. This has both stuffing and elegance, with the balance to last. "
+    },
+    {
+        "vineyard": "LEEUWIN",
+        "wine_name": "Chardonnay Margaret River Art Series 2008",
+        "price": "$89",
+        "tasting_note": "Silky, round and deftly balanced to play its pear, apricot, grapefruit and nutmeg flavors against a refined structure, casting it all into the long, enticing finish, which sails on impressively. Remarkable for its deftness, not its obvious power. "
+    },
+    {
+        "vineyard": "SHAW & SMITH",
+        "wine_name": "Chardonnay Adelaide Hills M3 2009",
+        "price": "$44",
+        "tasting_note": "A distinctly spicy white, with nutmeg and clove overtones to the pear and grapefruit flavors, weaving in walnut and filbert notes as the finish lingers impressively. "
+    },
+    {
+        "vineyard": "STAG'S LEAP WINE CELLARS",
+        "wine_name": "Chardonnay Napa Valley Arcadia Vineyard 2008",
+        "price": "$50",
+        "tasting_note": "This fresh white displays lively, crisp citrus, green apple and pear notes, with a touch of quince. Medium-weight, ending with a clean aftertaste. "
+    },
+    {
+        "vineyard": "LEWIS",
+        "wine_name": "Chardonnay Russian River Valley Sonoma 2009",
+        "price": "$48",
+        "tasting_note": "Fresh, intense, rich and vibrant, with a tight core of citrus- and mineral-laced green apple, spice, pear and honeydew melon. Full-bodied and still a bit coarse, but should smooth out nicely. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Chardonnay Napa Valley 2009",
+        "price": "$70",
+        "tasting_note": "Offers an exciting mix of flavors built around roasted marshmallow, honeysuckle, citrus and melon, ending with a rich, spicy aftertaste. Intense, focused, long and complex. "
+    },
+    {
+        "vineyard": "FREESTONE",
+        "wine_name": "Chardonnay Sonoma Coast 2008",
+        "price": "$55",
+        "tasting_note": "A stylish cool-climate Chardonnay, intense, crisp, vibrant and concentrated, with subtle citrus and pippin apple notes giving it a juicy sensation. Ends with slate and mineral notes that are firm and focused, reverberating on the finish. "
+    },
+    {
+        "vineyard": "LEWIS",
+        "wine_name": "Chardonnay Napa Valley 2009",
+        "price": "$48",
+        "tasting_note": "Combines ripe, rich fruit with a sense of elegance and finesse, offering a depth of fruit, with spice, pear, apple, honeydew melon and toasty, cedary oak. Full-bodied, intense and concentrated, ending with a long, full finish. "
+    }
+]

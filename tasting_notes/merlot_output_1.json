@@ -1,0 +1,146 @@
+[
+    {
+        "vineyard": "DARIOUSH",
+        "wine_name": "Merlot Napa Valley Signature 2019",
+        "price": "$74",
+        "tasting_note": "A spirited red that's a touch exotic, offering polished yet well-structured black cherry, sandalwood and mocha-espresso flavors that sail toward refined tannins. "
+    },
+    {
+        "vineyard": "BERINGER",
+        "wine_name": "Merlot Howell Mountain Bancroft Ranch Vineyard Single Vineyard 2017",
+        "price": "$90",
+        "tasting_note": "Svelte, powerful and well-honed, with red currant and dried berry flavors that are filled with minerality. Notes of hot stone midpalate are backed by vibrant acidity that lingers on the finish, with plenty of savoriness. "
+    },
+    {
+        "vineyard": "CHAPPELLET",
+        "wine_name": "Merlot Napa Valley 2017",
+        "price": "$45",
+        "tasting_note": "Powerful, with intense notes of bittersweet chocolate flanking the dark plum and dried blackberry flavors, this shows a rich savoriness, with forest floor accents lingering into the finish, lined by medium-grained tannins. "
+    },
+    {
+        "vineyard": "THE PRISONER WINE COMPANY",
+        "wine_name": "Merlot Napa Valley Thorn 2016",
+        "price": "$45",
+        "tasting_note": "A big red, featuring concentrated kirsch, dark plum and dark currant flavors, loaded with baker's chocolate accents. Asian spice and mocha notes linger on the grippy finish, with firm tannins. "
+    },
+    {
+        "vineyard": "DUCKHORN",
+        "wine_name": "Merlot Napa Valley Three Palms Vineyard 2016",
+        "price": "$110",
+        "tasting_note": "Vibrant acidity supports polished flavors of plum tart, dried cherry and dark olive, backed by crisp tannins. Dark chocolate notes merge with herbal accents on the liltingly smoky finish. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Merlot Napa Valley 2016",
+        "price": "$90",
+        "tasting_note": "Hedonistic, featuring dark plum, kirsch and cherry tart flavors that are lavishly oaked. Shows a plush texture throughout, with creamy notes and a long finish filled with dark chocolate, mocha and Asian spice details. "
+    },
+    {
+        "vineyard": "CASTELLO DI AMOROSA",
+        "wine_name": "Merlot Napa Valley 2014",
+        "price": "$42",
+        "tasting_note": "A muscular and powerful style, with dense dark fruit flavors that feature hints of mocha. Dried green herb accents show on the chiseled finish, along with plenty of tannins. "
+    },
+    {
+        "vineyard": "BODEGA BOUZA",
+        "wine_name": "Tannat-Merlot-Tempranillo Montevideo Monte Vide Eu 2015",
+        "price": "$60",
+        "tasting_note": "This has good cut to the concentrated dark cherry, plum and currant flavors. Minerally, with smoky notes midpalate. Finishes with accents of black licorice and slate. Tannat, Merlot and Tempranillo. "
+    },
+    {
+        "vineyard": "LA JOTA",
+        "wine_name": "Merlot Howell Mountain 2014",
+        "price": "$85",
+        "tasting_note": "Pure and powerful, with intense red berry and dark cherry flavors that are supported by fresh acidity and firm tannins. Dried green herb and spice notes show on the engaging and mineral-filled finish. "
+    },
+    {
+        "vineyard": "ROMBAUER",
+        "wine_name": "Merlot Napa Valley 2014",
+        "price": "$45",
+        "tasting_note": "Rich, ripe and full of powerful flavors of Christmas pudding, dark cherry and black currant that are backed by muscular acidity and tannins. Dried mint and slate details show on the dense finish. "
+    },
+    {
+        "vineyard": "PEDESTAL",
+        "wine_name": "Merlot Columbia Valley 2014",
+        "price": "$65",
+        "tasting_note": "Densely structured, with a backbone of stony tannins accented by smoky plum, clove and mocha spice flavors. Best after 2018. 2,365 cases made.\n                                \t                                \u2014Tim Fish"
+    },
+    {
+        "vineyard": "NORTHSTAR",
+        "wine_name": "Merlot Columbia Valley 2013",
+        "price": "$41",
+        "tasting_note": "Supple and expressive, plush in texture but not weighty, layering blueberry and currant flavors with hints of cream and green olive. Lingers easily. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Merlot Napa Valley 2013",
+        "price": "$85",
+        "tasting_note": "Plump and silky, with a luxurious texture and a lingering finish framed by rich flavors of black cherry, mocha, dusty herb and spicy oak. Tannins ease in on the finish. "
+    },
+    {
+        "vineyard": "DUCKHORN",
+        "wine_name": "Merlot Napa Valley 2012",
+        "price": "$54",
+        "tasting_note": "Focused and deeply structured, with bold blackberry and cedar aromas and flavors, accented with a plush texture and notes of cherry, tobacco and mineral. "
+    },
+    {
+        "vineyard": "PLUMPJACK",
+        "wine_name": "Merlot Napa Valley 2010",
+        "price": "$52",
+        "tasting_note": "Plush and supple, featuring red currant and toasty vanilla aromas, with lingering flavors of black cherry, mocha and tomato leaf. "
+    },
+    {
+        "vineyard": "PRIDE",
+        "wine_name": "Merlot Sonoma County Vintner Select Cuv\u00e9e 2009",
+        "price": "$75",
+        "tasting_note": "A supple and fleshy red, with zesty aromas of black cherry, mocha and spice that lead to rich flavors of red currant, toast and spice. Tannins are ripe and well-structured. "
+    },
+    {
+        "vineyard": "DUCKHORN",
+        "wine_name": "Merlot Napa Valley Three Palms Vineyard 2009",
+        "price": "$85",
+        "tasting_note": "Delicately balances a deep structure with rich and supple fruit, showing red currant and cedar aromas and layered flavors of black cherry, tomato leaf and mineral. Tannins suggest this will bloom further with time. "
+    },
+    {
+        "vineyard": "O'BRIEN ESTATE",
+        "wine_name": "Merlot Napa Valley 2009",
+        "price": "$48",
+        "tasting_note": "This is an unabashedly ripe and supple red, but backs it up with richness and complexity. Aromas of black cherry and spiced cinnamon open to flavors of red currant, cedar and mocha. "
+    },
+    {
+        "vineyard": "LEONETTI",
+        "wine_name": "Merlot Walla Walla Valley 2010",
+        "price": "$70",
+        "tasting_note": "Shows real presence and depth, offering a vibrant package of red berry, cherry and black currant, with hints of licorice and herbs as the finish lingers impressively. Cellaring should soften the raw feel and make this something special. "
+    },
+    {
+        "vineyard": "SHAFER",
+        "wine_name": "Merlot Napa Valley 2009",
+        "price": "$48",
+        "tasting_note": "Supple, elegant and beautifully focused, with aromas of red currant and toasty vanilla that lead to ripe but sleek and layered flavors of black cherry, cinnamon and black tea. Tannins sneak in on the finish. "
+    },
+    {
+        "vineyard": "PAHLMEYER",
+        "wine_name": "Merlot Napa Valley 2009",
+        "price": "$75",
+        "tasting_note": "Plush and richly structured, but with a dense, structured core, offering aromas of red currant and toasty mocha that lead to complex flavors of black cherry and Asian spice. Loamy, ripe tannins sneak in on the finish. "
+    },
+    {
+        "vineyard": "PEDESTAL",
+        "wine_name": "Merlot Columbia Valley 2008",
+        "price": "$55",
+        "tasting_note": "Firm in texture, with a moderate grip of tannins surrounding dark berry, black currant and licorice flavors, lingering gently and persistently. One sip demands another. "
+    },
+    {
+        "vineyard": "LEONETTI",
+        "wine_name": "Merlot Walla Walla Valley 2009",
+        "price": "$73",
+        "tasting_note": "A Merlot with admirable restraint, showing a lively balance of raspberry and roasted meat flavors, finishing against fine tannins. Offers freshness and immediate appeal, but there's more underneath that cellaring could bring out. "
+    },
+    {
+        "vineyard": "PALOMA",
+        "wine_name": "Merlot Spring Mountain District 2008",
+        "price": "$54",
+        "tasting_note": "Supple and plush, showing great depth, length and balance. Aromas of red currant, loam and olive lead to ripe flavors of plum, sweet mocha and spice. "
+    }
+]
